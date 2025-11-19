@@ -1,0 +1,55 @@
+{
+  "step_1_citizenship": {
+    "citizenship": "India",
+    "travel_document_type": "Ordinary",
+    "purpose_of_visit": "Tourism",
+    "insurance": true,
+    "residence_permit": {
+      "enabled": "false",
+      "country": ""
+    }
+  },
+  "step_2_travel_information": {
+    "arrival_date": "30/11/2025"
+  },
+  "step_4_personal_information": {
+    "first_name": "John",
+    "surname": "Doe",
+    "date_of_birth": "17/01/1990",
+    "sex": "Male",
+    "email": "jondoe@example.com",
+    "travel_document_number": "12345",
+    "expiry_date": "30/11/2030",
+    "representative": {
+      "enabled": true,
+      "relationship": "Guardian",
+      "first_name": "Jonathon",
+      "surname": "Doe",
+      "travel_document_number": "67890",
+      "companion": {
+        "enabled": true,
+        "people": [
+          {
+            "relationship": "Spouse",
+            "first_name": "Alexa",
+            "surname": "Doe",
+            "travel_document_number": "09876"
+          },
+          {
+            "relationship": "Child",
+            "first_name": "Mike",
+            "surname": "Doe",
+            "travel_document_number": "54321"
+          }
+        ]
+      }
+    },
+    "uploads": {
+      "photo_path": "https://picsum.photos/600/600",
+      "passport_pdf_path": "https://www.aeee.in/wp-content/uploads/2020/08/Sample-pdf.pdf"
+    }
+  }
+}
+
+
+

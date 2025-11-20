@@ -6,17 +6,16 @@ import requests
 import shutil
 from dotenv import load_dotenv
 from browser_use import Agent, ChatBrowserUse
-from fpdf import FPDF
-from PIL import Image
-
+from load_excel import load_evisa_excel
 
 load_dotenv()
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATA_PATH = os.path.join(BASE_DIR, "dummy_data.json")
+# DATA_PATH = os.path.join(BASE_DIR, "dummy_data.json")
 
-with open("dummy_data.json", encoding="utf-8") as f:
-    dummy = json.load(f)
+# with open("dummy_data.json", encoding="utf-8") as f:
+#     dummy = json.load(f)
+dummy = load_evisa_excel("data.xlsx")
 
 
 # test

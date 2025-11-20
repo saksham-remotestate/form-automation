@@ -21,6 +21,7 @@ cloudpickle==3.1.2
 cryptography==46.0.3
 distro==1.9.0
 docstring_parser==0.17.0
+et_xmlfile==2.0.0
 fpdf==1.7.2
 frozenlist==1.8.0
 google-api-core==2.28.1
@@ -50,6 +51,7 @@ multidict==6.7.0
 oauthlib==3.3.1
 ollama==0.6.1
 openai==2.8.0
+openpyxl==3.1.5
 pfzy==0.3.4
 pillow==12.0.0
 portalocker==2.10.1

@@ -25,24 +25,24 @@
       "relationship": "Guardian",
       "first_name": "Jonathon",
       "surname": "Doe",
-      "travel_document_number": "67890",
-      "companion": {
-        "enabled": true,
-        "people": [
-          {
-            "relationship": "Spouse",
-            "first_name": "Alexa",
-            "surname": "Doe",
-            "travel_document_number": "09876"
-          },
-          {
-            "relationship": "Child",
-            "first_name": "Mike",
-            "surname": "Doe",
-            "travel_document_number": "54321"
-          }
-        ]
-      }
+      "travel_document_number": "67890"
+    },
+    "companion": {
+      "enabled": true,
+      "people": [
+        {
+          "relationship": "Spouse",
+          "first_name": "Alexa",
+          "surname": "Doe",
+          "travel_document_number": "09876"
+        },
+        {
+          "relationship": "Child",
+          "first_name": "Mike",
+          "surname": "Doe",
+          "travel_document_number": "54321"
+        }
+      ]
     },
     "uploads": {
       "photo_path": "https://picsum.photos/600/600",
@@ -50,6 +50,3 @@
     }
   }
 }
-
-
-
